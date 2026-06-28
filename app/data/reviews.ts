@@ -4,7 +4,6 @@ export type Review = {
   location?: string
   rating: 5
   text?: string
-  photos?: string[]
   featured?: boolean
 }
 
@@ -14,7 +13,6 @@ export const reviews: Review[] = [
     name: 'Richard Ottis',
     rating: 5,
     text: "We were really impressed with Chad's roofing company. He was fast, polite, efficient. He returned our calls and texts, his crew Sean and Taylor were very professional, did the job in a fast and neat manner. I can't say enough good about Chad's and his business. I would absolutely recommend him to all my friends and family. Well done Chad's. Also, one of his crew accidentally broke one of our sprinklers, he told us and Chad came out to repair it himself. Other companies may not have even said anything, but they did. I can't tell you how much we appreciate him and his company. I'd give him 10 Stars if I could!",
-    photos: ['/reviews/richard-1.jpg'],
     featured: true,
   },
   {
@@ -22,7 +20,6 @@ export const reviews: Review[] = [
     name: 'Bernie Rossi',
     rating: 5,
     text: "We used Chad of Chad Warren Roofing to replace our roof in January, 2022. He was very responsive to our call when our roof was leaking in several spots. We opted for a new roof rather than trying to repair our 40+ year old concrete tile roof. Chad returns calls and texts quickly and keeps you informed of the job's progress. He takes care that the client is happy and satisfied and has an efficient crew to get the job completed quickly and properly. We were very impressed with Chad and would not hesitate to recommend him for your roofing needs.",
-    photos: ['/reviews/bernie-1.jpg', '/reviews/bernie-2.jpg'],
   },
   {
     id: 3,
@@ -36,14 +33,12 @@ export const reviews: Review[] = [
     name: 'Sree',
     rating: 5,
     text: 'Chad and his team recently replaced our metal roof and I cannot recommend him more highly! Very professional on every level - hard working, efficient, friendly, gave regular updates across the job and very competitively priced as well. Look no further for your next roofer!',
-    photos: ['/reviews/sree-1.jpg'],
   },
   {
     id: 5,
     name: 'Bill Roemer',
     rating: 5,
     text: "Chad and his crew did an excellent job on our new roof. I had trouble getting local contractors to respond when I requested recommendations on Facebook, Chad's company came up numerous times. He came out next day, and gave me a quote same day. Chad's reviews were stellar and I am glad to add my name to the list of very satisfied customers. If you need any repairs or a new roof, give Chad a call. You won't regret it.",
-    photos: ['/reviews/bill-1.jpg'],
   },
   {
     id: 6,
@@ -81,7 +76,6 @@ export const reviews: Review[] = [
     name: 'Brad Taylor',
     rating: 5,
     text: 'Chad and his team did a tear off, dry rot repair and reroof on our house. They showed up on time, did a great job, stayed on budget and left the site clean. I will be using Chad for all my future roofing needs and highly recommend him.',
-    photos: ['/reviews/brad-1.jpg', '/reviews/brad-2.jpg', '/reviews/brad-3.jpg', '/reviews/brad-4.jpg'],
   },
   {
     id: 12,
@@ -94,7 +88,6 @@ export const reviews: Review[] = [
     name: 'Sky Emerald',
     rating: 5,
     text: "One of the best roofing businesses in the area. If you're within 100 miles of this business and need a repair or a new roof this is the business you want. Professional, skilled, and top quality end results.",
-    photos: ['/reviews/sky-1.jpg'],
   },
   {
     id: 14,
